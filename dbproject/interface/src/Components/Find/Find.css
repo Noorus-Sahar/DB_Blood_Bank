@@ -1,0 +1,50 @@
+#dropdown-basic-button{
+    margin:10px 42%;
+    background-color:#553838;
+    width: 200px;
+}
+.find table {
+        margin:20px 10%;
+        width: 80%;
+      }
+.find table tr td {
+        width:10%;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin:100px;
+        padding:4px 30px;
+        border: 1px solid black;
+      }
+      
+      .find table tr {
+        text-align: center;
+        border: 1px solid black;
+      }
+    .find table button{
+        margin:0px 5px;
+        width:100px;
+        height: -20px;
+        background-color: maroon;
+        color: wheat;
+    }
+    .accform{
+      margin:10px 38%;
+     
+    }
+    .maxwidth .accform{
+      margin:0% 267px;
+      padding-top:15px;
+      width: 60%;
+    }
+    .maxwidth .accform .form-check{
+      padding: 10px;
+      margin:0% 100px;
+    }
+    #foryes{
+      margin: 10px;
+    }
+    #forno{
+      margin: 10px;
+    }

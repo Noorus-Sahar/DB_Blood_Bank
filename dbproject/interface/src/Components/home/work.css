@@ -1,0 +1,274 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.home{
+	display: flex;
+	background-image: url(/src/Components//Navbar/save.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:160vh;
+	min-height: 500px;
+	font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+	margin: auto 0 auto 15px;
+}
+.home .home-content .text-1{
+	font-size: 35px;
+}
+.home .home-content .text-2{
+	font-size: 75px;
+	font-weight: 600;
+	margin-left: -3px;
+}
+.home .home-content .text-3{
+	font-size: 40px;
+	margin:5px 0; 
+}
+.home .home-content .text-3 span{
+	color: #b60505;
+	font-weight: 200px;
+}
+.home .home-content a{
+	display: inline-block;
+	background-color:#b60505;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 17px;
+	border-radius: 10px;
+	transition: all 0.3 ease;
+}
+.home .home-content a:hover{
+	background-color: transparent;
+	color: #b60505;
+	border: #ffffff;
+	border-style: solid;
+}
+section{
+	padding: 30px 0px;
+}
+.about .services{
+	font-family: 'Poppins',sans-serif;
+	color: black;
+}
+.about .about-content,
+.services .services-content,
+.skills .skillscont,
+.contact .contact-content{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title{
+	font-size:40px;
+	font-style: bold;
+	text-align: center;
+	margin: 50px 0px;
+}
+.about .title::before{
+	content:"";
+	position: absolute;
+	bottom: -173px;
+	left: 50%;
+	width: 180px;
+	height: 3px;
+	background-color: #111;
+	transform: translateX(-50%);
+}
+.about .title::after{
+	content: "who i am";
+	position: absolute;
+	bottom: -187px;
+	left: 50%;
+	font-size: 20px;
+	color:crimson;
+	padding: 5px;
+	background-color: #ffffff;
+	transform: translateX(-50%);
+}
+.about .title::after{
+	content: "who i am";
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+	height: 400px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+	width: 55%;
+	padding-left: 25px;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+	margin-bottom:10px;
+	color: black;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+	text-align: justify;
+	color: black;
+}
+.about .about-content .right a{
+    display: inline-block; 
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+.services{
+	color: #ffffff;
+	background-color: #111;
+
+}
+.services .services-content .card{
+	width: calc(32% - 30px);
+	background-color: #222;
+	text-align: center;
+	border-radius:6px;
+	padding: 20px 25px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+}
+.services .services-content .card .box{
+	transition: all 0.3 ease;
+}
+.services .services-content .card:hover .box{
+	transform: scaleX(1.05);
+}
+.services .services-content .card:hover{
+	background-color: crimson;
+}
+.services .services-content .card i{
+	font-size: 40px;
+	color:crimson;
+}
+.services .services-content .card:hover i{
+	color:#ffffff;
+}
+.services .services-content .card .text{
+	font-size: 25px;
+	font-weight: 500;
+	margin:10px 0px 7px 0px;
+}
+.skills .skillscont .col{
+	width: calc(50% - 30px);
+}
+.skills .skillscont .left .text{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skillscont .left h2{
+	text-align: left;
+	font-family: monospace;
+	font-size: 25px;
+    font-weight: 600;
+	margin-bottom:10px;
+	color: black;
+}
+.skills .skillscont .left .content{
+	text-align: justify;
+	color: black;
+}
+.skills .skillscont .left a{
+	display: inline-block; 
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skillscont .left a:hover{
+    color: crimson;
+    background: none;
+}
+.skills .skillscont .right .bars{
+	margin-bottom: 15px;
+}
+.skills .skillscont .right .info{
+	display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skillscont .right span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.skills .skillscont .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skillscont .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills .skillscont .right .c::before{
+    width: 90%;
+}
+.skills .skillscont .right .html::before{
+    width: 98%;
+}
+.skills .skillscont .right .css::before{
+    width: 60%;
+}
+.skills .skillscont .right .react::before{
+    width: 60%;
+}
+.skills .skillscont .right .ds::before{
+    width: 50%;
+}
+.contact{
+	background-color: black;
+}
+.contact .title {
+	color:white;
+}
+.contact .title span{
+	color: crimson;
+}
+.contact .text{
+	color: white;
+	padding-bottom: 20px;
+}
+.contact .text h2{
+	padding-bottom: 20px;
+}
+.contact .contact-content .left{
+	width:30%;
+	font-family: monospace;
+	font-weight: 15px;
+	font-size: 14px;
+	justify-content: space-between;
+
+}

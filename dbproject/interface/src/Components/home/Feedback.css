@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.maxWidth{
+	max-width: 1300vh;
+	padding: 0px 80px;
+	margin:auto;
+}
+.Services h1, .packages h1, .Clients h1{
+    margin-top: 15px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+}
+.Services h1 span, .packages h1 span, .Clients h1 span{
+    color:black;
+    text-align: center;
+}
+.Clients .clients-content .card .box .text{
+    color: black;
+	font-size: 16px;
+	font-weight: 600;
+	margin:10px 0px 7px 0px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Clients .clients-content .card{
+    font-size: 14px;
+}
+.Clients{
+    background-color: white;
+}
+.Clients .clients-content .card{
+    align-items: center;
+    display: inline-block;
+	width: calc(32% - 30px);
+	background-color: white;
+	text-align: center;
+	border-radius:6px;
+	padding: 20px 20px 15px 20px;
+    margin: 10px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+    margin-top: 50px;
+    border-top:#3D0000;
+    border-left:white;
+    border-right:white;
+    border-bottom:white;
+    border-style: solid;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Clients .clients-content .card .box p{
+    padding:15px 0px;
+}
+.Clients .clients-content .card:hover .box{
+	transform: scale(1.05);
+}
+.Clients .clients-content .card .box img{
+    margin-top: 15px;
+}
+.title{
+    display: flex;
+    background-image: url(/src/Components/Navbar/logo.jpg);
+    height: 740px;
+    background-size: 100% 100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	min-height: 500px;
+	font-family: 'Ubuntu',sans-serif;
+}
+.title .title-box1{
+    float: left ;
+    display: flex;
+    box-sizing: content-box;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    width: 420px;
+    height: 220px;
+    margin: 30px 130px 15px 20px;
+}
+.title .title-content{
+    padding-left: 10px;
+}
+.title .title-content h2{
+    margin-top:10px;
+    font-weight:600;
+    padding: 15px 15px;
+    color: white;
+    font-size: 25px;
+}
+.title .title-content p{
+    padding:5px 5px 5px 20px;
+    color: white;
+    font-size: 14px;
+}
+.title .title-content button{
+    background-color: #007bff;
+    border-radius: 20px;
+    padding: 0px 18px 0px 18px;
+    margin: 0px 20px 0px 20px;
+    border-color:  #007bff;
+
+}
+.title .title-content a{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+}
+.title .title-content button:hover{
+    background-color: transparent;
+	color: white;
+	border: #ffffff;
+	border-style: solid;
+
+}

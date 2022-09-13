@@ -1,0 +1,93 @@
+#container{
+    max-width: 1300vh;
+    height:657px;
+    background-image:linear-gradient( to bottom left, rgb(73, 2, 2),rgb(31, 30, 30),black);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
+}
+.body{
+       margin: 0 auto;
+       padding-top: 150px;
+       width:300px;
+       text-align: center;
+     
+   }
+.header .logo .fa-weibo{
+       font-size: 50px;
+       color: white;
+   }
+.header h1 {
+   font-size: 35px;
+   color: white;
+   }
+   #login-form .fields{
+       background-color: white;
+       border-radius: 50px;
+   }
+   #login-form .fields input
+   {
+      width: 100%;
+      font-size:14px;
+      border:none;
+      padding: 0px;
+      margin: 0px;
+      
+      outline: none;
+      padding-top:15px;
+      padding-bottom:15px;
+      text-indent:20px;
+      border-radius: 10px;
+   
+   }
+   #login-form .fields input[type="email"]:focus{
+       background-color:whitesmoke;
+
+
+   }
+   #login-form .fields input[type="password"]{
+       border-top: 1.5px solid #CCCC;
+   }
+   #login-form input[type="submit"]{
+       font-family: 'Roboto', sans-serif;
+       display:block;
+    width: 100%;
+    border:none;
+    background-color: #636363;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 12px;
+    padding:14px 0px;
+    border-radius: 5px;
+    text-align: center;
+   }
+   #login-form input[type="submit"]:hover{
+       background-color:rgb(12, 12, 12);
+       cursor: pointer;
+   }
+   #login-form input[type="submit"]:active{
+       background-color:rgb(112, 37, 37);
+   }
+   
+   #footer p{
+       color: white;
+   }
+   #footer p a {
+       color: white;
+       text-decoration:none;
+       font-weight: bold;
+       font-size: 15px;
+   }
+   #footer p a:hover{
+       color:rgb(39, 90, 185);
+   }
+   #footer-2 p a {
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+#footer-2 p a:hover{
+    color:rgb(39, 90, 185);
+}
