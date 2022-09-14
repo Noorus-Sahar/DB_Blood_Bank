@@ -1,0 +1,33 @@
+table {
+  padding: 50px;
+  background-color: #e3f2fd;
+  margin:0% 100px;
+  width: 1000px;
+  border: rgb(201, 201, 211);
+}
+table tr td {
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+  width: 200px;
+}
+
+table tr td input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  align-items: center;
+}
+table tr td select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  width: 220px;
+  align-items: center;
+}
+table tr td textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}

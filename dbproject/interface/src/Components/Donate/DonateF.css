@@ -1,0 +1,68 @@
+.containee {
+    width: 100%;
+ }
+ .max-width .donorform{
+	margin:0% 267px;
+	width: 60%;
+}
+.max-width .donorform h1{
+	margin: 15px 20px 10px 15px;
+	font-size: 25px;
+    text-align: center;
+    
+}
+ .max-width .donorform  .card{
+	width: 90%;
+	border: 3px solid #E3E8E8;
+	margin:10px 0px;
+}
+ .max-width .donorform .card .box{
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+.max-width .donorform .card .box .form{
+	width: 60%;
+}
+.max-width .donorform .card .box .form label{
+	margin:10px 10px 10px 10px;
+}
+.max-width .donorform .card .box .form .text{
+	margin:0px 10%;
+}
+.max-width .donorform .card .box .text1{
+	margin:10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+ .max-width .donorform .card .box img{
+	margin:10px 10px 10px 10px;
+	width:35px;
+}
+ .max-width .donorform .card .box .text{
+	margin:10px 10px 10px 10px;
+}
+ .max-width .Carsrent .calculate{
+	width:30%;
+	margin:20px 0px;
+}
+ .max-width .Carsrent .calculate .card{
+	border: 3px solid #E3E8E8;
+}
+ .max-width .Carsrent .calculate .card .box .text1{
+	font-size: 20px;
+}
+ .max-width .Carsrent .calculate .card .box .pricing{
+	font-size: 17px;
+	font-weight: 400;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between ;
+	margin:20px;
+}
+ .max-width .Carsrent .calculate .card .box .text2{
+	margin:10px 6px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 400;
+}

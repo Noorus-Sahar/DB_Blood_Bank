@@ -1,0 +1,15 @@
+--first install node from setup---
+/*Run this on cmd
+npm init
+npm install --save express@4.16.3 mysql@2.15.0 body-parser@1.18.2
+*/
+
+/*run this on vs terminal of project folder dbproject>interface>
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-brands-svg-icons */
+
+app command
+npm install -g create-react-app
+npx create-react-app nameofapp
+npm install react-router-dom
